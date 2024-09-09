@@ -1,14 +1,13 @@
 import React from "react";
 import Sidebar from "./Sidebar";
+import Chat from "./Chat";
 
 const Imessage = () => {
   return (
-    <div>
-      {/* Side bar  */}
+    <div className="flex">
       <Sidebar />
-      {/* Chat  */}
+      <Chat />
     </div>
   );
 };
-
 export default Imessage;
